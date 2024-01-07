@@ -1,10 +1,19 @@
 # Piedra-Papel-Tijera (Mejorado)
 
+![Static Badge](https://img.shields.io/badge/Estado%20-%20Terminado%20-%20green)
+
+
 ## Descripción
 Proyecto realizado para demostrar los conocimientos en Front-end. La idea del proyecto viene de un desafío de la pagina (https://www.frontendmentor.io).  Este proyecto ofrece al usuario un mini juego de Piedra-Papel-Tijera (Mejorado) eso quiere decir que agregamos mas elementos al juego como Spock y Lizard ( para mas informacion leer las reglas )
 
 ## Tipo de proyecto 
 Proyecto individual
+
+## Tecnologías usadas
+- React
+- CSS
+- TypeScript
+
 
 ## Capturas de pantalla
 ### Escritorio
