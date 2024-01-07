@@ -1,10 +1,19 @@
 # Piedra-Papel-Tijera (Mejorado)
 
-## Descripción
+![Static Badge](https://img.shields.io/badge/Estado%20-%20Terminado%20-%20green)
+
+
+## Introducción
 Proyecto realizado para demostrar los conocimientos en Front-end. La idea del proyecto viene de un desafío de la pagina (https://www.frontendmentor.io).  Este proyecto ofrece al usuario un mini juego de Piedra-Papel-Tijera (Mejorado) eso quiere decir que agregamos mas elementos al juego como Spock y Lizard ( para mas informacion leer las reglas )
 
 ## Tipo de proyecto 
 Proyecto individual
+
+## Tecnologías usadas
+- React
+- CSS
+- TypeScript
+
 
 ## Capturas de pantalla
 ### Escritorio
@@ -92,7 +101,7 @@ piedra-papel-tijera
 ```
 
 ## Instalación
-Antes de descargar o clonar el repositorio es necesario que usted instale node (https://nodejs.org/en).
+Antes de descargar o clonar el repositorio es necesario que usted instale Node (https://nodejs.org/en).
 Una vez descargado o clanado el repositorio, abra la terminal en la ruta donde se encuentra el proyecto y escriba el siguiente comando.
 ```
 npm i
@@ -104,6 +113,7 @@ En caso de haber seguido los pasos de la instalación solo debe ejecutar el sigu
 ```
 npm run dev
 ```
+y dirigirse a la dirección que se muestra en consola
 
 En caso de saltarse los paso de instalación y querer probar el proyecto en linea visitar el siguiente link:
 https://stupendous-salamander-980811.netlify.app
