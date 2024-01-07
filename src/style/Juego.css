@@ -1,0 +1,41 @@
+.juego {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cont-opciones {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cont-opciones button {
+    height: 3.5rem;
+    width: 9rem;
+    font-size: 1.3em;
+    margin-right: 4rem;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+}
+
+@media (max-width: 1280px) {
+
+    .cont-opciones {
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .cont-opciones button {
+        font-size: 1em;
+        margin: 0;
+        border-width: 0.1rem;
+        border-radius: 0.2rem;
+    }
+}

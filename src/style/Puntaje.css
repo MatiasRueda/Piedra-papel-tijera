@@ -1,0 +1,81 @@
+.puntaje {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border: 0.3rem solid hsl(217, 16%, 45%);
+    height: 13rem;
+    width: 50%;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cont-contador {
+    margin-right: 2rem;
+    height: 80%;
+    width: 13rem;
+    border-radius: 1rem;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.leyenda {
+    margin-bottom: 0.2rem;
+    width: 100%;
+    color:hsl(229, 64%, 46%);
+    text-align: center;
+    font-size: 1.9em;
+}
+
+.puntos {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.puntaje h1 {
+    margin-left: 2rem;
+    height: 100%;
+    max-width: 8rem;
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+@media (max-width: 1280px) {
+    .puntaje {
+        height: 10rem;
+        width: 90%;
+        margin-bottom: 0rem;
+    }   
+    .puntaje h1 {
+        margin-left: 2rem;
+        height: 100%;
+        max-width: 4rem;
+        font-size: 1em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .cont-contador {
+        margin-right: 1rem;
+        height: 70%;
+        width: 8rem;
+    }
+
+    .leyenda {
+        font-size: 1.5em;
+    }
+
+    .puntos {
+        font-size: 2em;
+        font-weight: bold;
+    }
+}

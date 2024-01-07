@@ -1,0 +1,18 @@
+.cont-elecciones {
+    background-image: url("../../images/bg-pentagon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    height: 35rem;
+    width: 38rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+@media (max-width: 1280px) {
+    .cont-elecciones {
+        width: 100%;
+    }   
+}

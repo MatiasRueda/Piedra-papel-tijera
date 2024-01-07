@@ -1,0 +1,52 @@
+.cont-resultado-mensaje {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cont-resultado-mensaje h2 {
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+}
+
+.cont-resultado-mensaje button {
+    height: 3.5rem;
+    width: 12rem;
+    font-size: 1.3rem;
+    color: black;
+    cursor: pointer;
+    border: 0.3rem solid white;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+
+.cont-resultado-mensaje button:hover {
+    color: red;
+}
+
+.cont-resultado-mensaje button h3 {
+    margin: 0;
+}
+
+@media (max-width: 1280px) {
+    .cont-resultado-mensaje {
+        width: 100%;
+        margin-top: 0.3rem;
+    }
+
+    .cont-resultado-mensaje h2 {
+        margin-bottom: 0.5rem;
+        font-size: 4em;
+    }
+    
+    .cont-resultado-mensaje button {
+        height: 3rem;
+        width: 12rem;
+        font-size: 1em;
+    }
+}

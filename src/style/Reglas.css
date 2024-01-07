@@ -1,0 +1,81 @@
+.reglas {    
+    position:fixed;
+    z-index: 3;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-reglas-info {
+    width: 33rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-reglas-info h2 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 70%;
+    color: black;
+}
+
+.cont-reglas-boton {
+    margin-top: 2rem;
+    margin-right: 2rem;
+}  
+
+.cont-reglas-boton button {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: grey;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.cont-reglas-info button:hover {
+    color: white;
+    background-color: black;
+}
+
+.reglas img {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 29rem;
+}
+
+@media (max-width: 1280px) {
+    .cont-reglas-info {
+        height: 100%;
+    }
+
+    .cont-reglas-info h2 {
+        order: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cont-reglas-boton {
+        order: 2;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cont-reglas-info img {
+        order: 1;
+        width: 20rem;
+    }
+}
