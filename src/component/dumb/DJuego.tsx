@@ -12,19 +12,19 @@ type JuegoParams = {
 
 function DJuego({...rest}: JuegoParams): JSX.Element {
     return (
-        <section className="juego">
+        <main className="juego">
             <DPuntaje puntaje={rest.puntaje}/>
             {rest.escena}
             {rest.reglas}
-            <div className="cont-opciones">
+            <section className="opciones">
                 <button onClick={rest.volverMenu}>
                     Menu
                 </button>
                 <button onClick={rest.mostrarReglas}>
                     Rules
                 </button>
-             </div>
-        </section>
+             </section>
+        </main>
     )
 }
 

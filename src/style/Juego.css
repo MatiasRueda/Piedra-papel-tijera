@@ -6,14 +6,14 @@
     justify-content: center;
 }
 
-.cont-opciones {
+.opciones {
     height: 3rem;
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
 
-.cont-opciones button {
+.opciones button {
     height: 3.5rem;
     width: 9rem;
     font-size: 1.3em;
@@ -27,12 +27,12 @@
 
 @media (max-width: 1280px) {
 
-    .cont-opciones {
+    .opciones {
         height: auto;
         justify-content: space-around;
     }
 
-    .cont-opciones button {
+    .opciones button {
         font-size: 1em;
         margin: 0;
         border-width: 0.1rem;

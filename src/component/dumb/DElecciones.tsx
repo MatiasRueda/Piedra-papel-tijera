@@ -5,7 +5,7 @@ import ELECCIONES from "../../auxiliar/elecciones";
 
 function DElecciones(props: { eleccionUsuario: (eleccion: ELECCION) => void }): JSX.Element {
     return (
-        <div className="cont-elecciones">
+        <section className="elecciones">
             <DEleccion id="tijera" {...ELECCIONES.TIJERA} resultado={false}
                     elegir={() => { props.eleccionUsuario(ELECCION.TIJERA) }}/>
             <div className="cont-spock-papel">
@@ -20,7 +20,7 @@ function DElecciones(props: { eleccionUsuario: (eleccion: ELECCION) => void }): 
                 <DEleccion id="piedra" {...ELECCIONES.PIEDRA} resultado={false}
                         elegir={() => { props.eleccionUsuario(ELECCION.PIEDRA) }}/>
             </div>
-        </div>
+        </section>
     )
 }
 
