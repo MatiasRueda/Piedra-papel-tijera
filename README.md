@@ -4,16 +4,11 @@
 
 
 ## Introducción
-Proyecto realizado para demostrar los conocimientos en Front-end. La idea del proyecto viene de un desafío de la pagina (https://www.frontendmentor.io).  Este proyecto ofrece al usuario un mini juego de Piedra-Papel-Tijera (Mejorado) eso quiere decir que agregamos mas elementos al juego como Spock y Lizard ( para mas informacion leer las reglas )
+Proyecto realizado para demostrar los conocimientos en Front-end. La idea del proyecto viene de un desafío de la pagina (https://www.frontendmentor.io). </br>
+Este proyecto ofrece al usuario un mini juego de Piedra-Papel-Tijera (Mejorado) eso quiere decir que agregamos mas elementos al juego como Spock y Lizard ( para mas informacion leer las reglas )
 
 ## Tipo de proyecto 
 Proyecto individual
-
-## Tecnologías usadas
-- React
-- CSS
-- TypeScript
-
 
 ## Capturas de pantalla
 ### Escritorio
@@ -33,6 +28,18 @@ Proyecto individual
 	<img src="https://i.postimg.cc/26g36Wxj/PPT-mobile2.png"/>
 	<img src="https://i.postimg.cc/brH8hSCB/PPT-mobile3.png"/>
 </p>
+
+
+## Estrategias
+### Smart y Dumb Component
+Se separaron los componentes que se utilizan en el proyecto en smart  y dumb component según la responsabilidad que tengan. Esto lo hice con el objetivo de obtener un código mas conciso y una mejor legibilidad </br> 
+Smart:  Tendrán la lógica del componente, operaciones complejas , gestionan eventos y acciones del usuario.</br>
+Dumb: No manejan la lógica, se encargan únicamente de la presentación.
+
+## Tecnologías usadas
+- React
+- CSS
+- TypeScript
 
 
 ## Estructura
@@ -101,8 +108,8 @@ piedra-papel-tijera
 ```
 
 ## Instalación
-Antes de descargar o clonar el repositorio es necesario que usted instale Node (https://nodejs.org/en).
-Una vez descargado o clanado el repositorio, abra la terminal en la ruta donde se encuentra el proyecto y escriba el siguiente comando.
+Antes de descargar o clonar el repositorio es necesario que usted instale Node (https://nodejs.org/en). </br>
+Una vez descargado o clonado el repositorio, abra la terminal en la ruta donde se encuentra el proyecto y escriba el siguiente comando.
 ```
 npm i
 ```
