@@ -7,6 +7,20 @@
 Proyecto realizado para demostrar los conocimientos en Front-end. La idea del proyecto viene de un desafío de la pagina (https://www.frontendmentor.io). </br>
 Este proyecto ofrece al usuario un mini juego de Piedra-Papel-Tijera (Mejorado) eso quiere decir que agregamos mas elementos al juego como Spock y Lizard ( para mas informacion leer las reglas )
 
+
+## Tabla de contenido
+* [Introducción](#Introducción)
+* [Tabla de contenido](#Tabla-de-contenido)
+* [Tipo de proyecto](#Tipo-de-proyecto)
+* [Capturas de pantalla](#Capturas-de-pantalla)
+* [Estrategias](#Estrategias)
+* [Tecnologías utilizadas](#Tecnologías-utilizadas)
+* [Estructura](#Estructura)
+* [Instalación](#Instalación)
+* [Uso](#Uso)
+
+
+
 ## Tipo de proyecto 
 Proyecto individual
 
