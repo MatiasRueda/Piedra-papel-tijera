@@ -50,7 +50,7 @@ Se separaron los componentes que se utilizan en el proyecto en smart  y dumb com
 **Smart**:  Tendrán la lógica del componente, operaciones complejas , gestionan eventos y acciones del usuario.</br>
 **Dumb**: No manejan la lógica, se encargan únicamente de la presentación.
 
-## Tecnologías usadas
+## Tecnologías utilizadas
 - React
 - CSS
 - TypeScript
